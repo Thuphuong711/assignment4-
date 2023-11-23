@@ -32,7 +32,7 @@
 
 
 .grid-item {
-    background-color: white;
+    /* background-color: white; */
 }
 
 .grid-content {
@@ -40,7 +40,7 @@
     box-sizing: border-box;
 }
 
-.content1, .content2, .content3, .content4 {
+.grid-content1 {
     background-color: whitesmoke;
 }
 
@@ -247,6 +247,10 @@ figure {
         min-height: 400px;
     }
 
+    button{
+        width: 10%;
+    }
+
 }
 
 /* tablet */
@@ -285,6 +289,9 @@ figure {
     }
 
 
+    button{
+        width: 10%;
+    }
 }
 
 @media(min-width: 1281px) and (max-width:1600px) {
@@ -296,4 +303,8 @@ figure {
     #circle {
         margin-top: 2px;
     }
+    button{
+        height:5%;
+    }
 }
+
