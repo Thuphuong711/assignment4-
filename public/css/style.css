@@ -1,3 +1,7 @@
+/* *{
+    margin-bottom: 35px;
+} */
+
 /* latin-ext */
 @font-face {
     font-family: DancingScript;
@@ -30,7 +34,9 @@
     ;
 }
 
-
+button, .subcribe:hover{
+    cursor: pointer;
+}
 .grid-item {
     /* background-color: white; */
 }
@@ -193,6 +199,11 @@ figure {
     font-size: 24px;
 }
 
+#info-json{
+    display: inline-block;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
 /* phone */
 @media (min-width:0px) and (max-width: 700px) {
     #container {
@@ -248,7 +259,10 @@ figure {
     }
 
     button{
-        width: 10%;
+        width: 15%;
+    }
+    table{
+        margin-bottom: 20px;
     }
 
 }
@@ -306,5 +320,19 @@ figure {
     button{
         height:5%;
     }
+    table{
+        width: 984px;
+    }
+    button{
+        height: 8%;
+    }
 }
 
+th{
+    text-align: left;
+    width: 400;
+}
+
+td{
+    margin: 50px;
+}
